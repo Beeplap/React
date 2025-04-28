@@ -20,10 +20,10 @@ function App() {
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          Click to increase the numberaw {count}
+          Click to increase the number{count}
         </button>
         <p>
-          Learn React with Vite
+           Learn with me ( React with Vite )
         </p>
       </div>
       <p className="read-the-docs">
