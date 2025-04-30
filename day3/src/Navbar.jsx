@@ -6,7 +6,6 @@ import { MdOutlineWatchLater } from "react-icons/md";
 import { IoMdApps } from "react-icons/io";
 import { RiAccountCircle2Fill } from "react-icons/ri";
 
-
 import { IoSearch } from "react-icons/io5";
 import { CgNotifications } from "react-icons/cg";
 const Navbar = () => {
