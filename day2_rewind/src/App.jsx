@@ -4,7 +4,7 @@ import Hero from "./Hero";
 
 const Home = () => {
   return (
-    <div className="h-screen bg-cover " style={{ backgroundImage: "url('./src/assets/img1.png')" }}>
+    <div className="min-h-screen bg-gradient-to-b from-sky-200 via-blue-400 to-indigo-900">
       <Navbar />
       <Hero />
     </div>
