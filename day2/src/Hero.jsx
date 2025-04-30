@@ -1,7 +1,6 @@
 import React from "react";
 import { IoInformationCircleOutline } from "react-icons/io5";
 import { FaPlay } from "react-icons/fa";
-import { MdOutlineMiscellaneousServices } from "react-icons/md";
 const Hero = () => {
   return (
     <div className="font-mono flex flex-col items-end justify-center mr-20 mt-20 h-screen text-white ">
