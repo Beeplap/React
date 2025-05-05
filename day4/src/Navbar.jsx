@@ -19,9 +19,9 @@ const Navbar = () => {
       href: "/about"
     },
     {
-      label: "Contact",
+      label: "Add Products",
       icon: <IoMdContact />,
-      href: "/contact"
+      href: "/AddProducts"
     },
     
   ]     
@@ -30,7 +30,7 @@ const Navbar = () => {
         <div>
             Alibaba
         </div>
-        <ul className='flex gap-4 items-center text-xl'>
+        <ul className='flex gap-10 items-center text-xl'>
             {navItems.map((item, index) => (
                
                  <Link to={item.href} key={index}>

@@ -1,22 +1,22 @@
-import React from 'react'
-import Navbar from './Navbar'
-import {BrowserRouter,Routes,Route} from "react-router-dom"
-import Hero from './Hero'
-import Skill from './Skill'
-import ProductList from './components/ProductList'
+import React from "react";
+import Navbar from "./Navbar";
+import Addform from "./components/Addform";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import ProductList from "./components/ProductList";
 const App = () => {
   return (
     <div>
       <BrowserRouter>
-      <Navbar/>
-      <Routes>
-        <Route path='/' element={<ProductList/>}/>
-        <Route path='/skills' element={<Skill/>}/>
-      </Routes>
-      </BrowserRouter>
-      
-    </div>
-  )
-}
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<ProductList />} />
 
-export default App
+          <Route path="/AddProducts" element={<Addform/>} />
+        </Routes>
+      </BrowserRouter>
+    </div>
+  );
+};
+
+export default App;
