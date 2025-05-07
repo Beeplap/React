@@ -8,10 +8,10 @@ const Signup = () => {
   };
 
   return (
-    <div className="flex min-h-screen bg-gray-100 items-center justify-center p-10">
-      <div className="flex w-full max-w-4xl">
+    <div className="flex min-h-screen bg-gray-100 items-center justify-center p-12 ">
+      <div className="flex w-full max-w-4xl ">
         <div
-          className="w-1/2 p-10 flex flex-col justify-between rounded-lg"
+          className="w-1/2 p-10 flex flex-col justify-between rounded-l-lg"
           style={{
             backgroundImage: `url('./src/assets/anime.png')`,
             backgroundSize: "cover",
@@ -37,8 +37,8 @@ const Signup = () => {
             </p>
           </div>
         </div>
-        <div className="w-1/2 flex items-center justify-center px-10">
-          <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+        <div className="w-1/2 flex items-center justify-center ">
+          <div className="bg-white p-8 shadow-lg w-full max-w-md rounded-r-lg">
             <h2 className="text-3xl font-bold mb-2">Create your account</h2>
             <p className="text-gray-600 mb-6">
               Join Nucleus UI and start designing with ease.

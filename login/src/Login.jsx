@@ -9,9 +9,9 @@ const Login = () => {
 
   return (
     <div className="flex min-h-screen bg-gray-100 items-center justify-center p-10">
-      <div className="flex w-full max-w-4xl">
+      <div className="flex w-full max-w-4xl rounded-lg">
         <div
-          className="w-1/2 p-10 flex flex-col justify-between rounded-lg "
+          className="w-1/2 p-10 flex flex-col justify-between rounded-l-lg  "
           style={{
             backgroundImage: `url('./src/assets/girl.jpeg')`,
             backgroundSize: "cover",
@@ -19,7 +19,7 @@ const Login = () => {
             minHeight: "100%",
           }}
         >
-          <div className="flex gap-2 items-center text-2xl font-bold text-black">
+          <div className="flex gap-2 items-center text-2xl font-bold text-black ">
             {" "}
             <img
               className="  w-5 h-5 "
@@ -37,8 +37,8 @@ const Login = () => {
             </p>
           </div>
         </div>
-        <div className="w-1/2 flex items-center justify-center px-10">
-          <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+        <div className="w-1/2 flex items-center justify-center "> 
+          <div className="bg-white p-8  shadow-lg w-full max-w-md rounded-r-lg">
             <h2 className="text-3xl font-bold mb-2">Welcome back to React</h2>
             <p className="text-gray-600 mb-6">
               Build your design system effortlessly with our powerful component
